@@ -10,21 +10,25 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
-import os
+import os # Os dependancy Mac,Windows,Linux
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+# To get the root directory where manage.py is present
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(BASE_DIR)
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+# Unique to project
 SECRET_KEY = '9gtjk5=n-y#%r2kggetj=(g@#c-dr3p6tu$vygg$f2oux3_sdb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+# False if live project
 DEBUG = True
-
+# Restricts the IP which can access the server
 ALLOWED_HOSTS = []
 
 
@@ -49,8 +53,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+# routing managed here
 ROOT_URLCONF = 'tryjango.urls'
-
+# HTML managed here
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -76,7 +81,7 @@ WSGI_APPLICATION = 'tryjango.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'), # We can change the db file name here
     }
 }
 
