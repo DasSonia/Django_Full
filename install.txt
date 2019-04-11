@@ -24,4 +24,17 @@ python manage.py shell
 >>> Product.objects.create(title="New Product1",description="Description",price="123456",summary="Sweet")
 
 
+# New model fields
+delete all files in migrations folder except "__init__.py"
+stop server and delete db.sqlite3
+
+https://docs.djangoproject.com/en/2.2/ref/models/fields/#field-types
+
+make changes
+python manage.py makemigrations
+python manage.py migrate
+create super user
+run test all cases from shell
+
+
 
