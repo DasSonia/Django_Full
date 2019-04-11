@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Third party
     # Own
-    'products'
+    'products',
+    'pages',
 ]
 
 MIDDLEWARE = [
@@ -57,7 +58,7 @@ MIDDLEWARE = [
 ]
 
 # routing managed here
-ROOT_URLCONF = 'tryjango.urls'
+ROOT_URLCONF = 'tryjango.urls' # URL linked here
 # HTML managed here
 TEMPLATES = [
     {

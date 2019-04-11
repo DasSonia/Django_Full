@@ -39,4 +39,7 @@ run test all cases from shell
 If we add new fields to DB we have to take care about old data in sqlite3.db
 Default values should be handled and migrations should be done properly
 
+# Default Home to Custom Page
+python manage.py startapp pages
+
 
