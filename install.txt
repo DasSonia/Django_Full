@@ -9,3 +9,6 @@ python .\manage.py createsuperuser
 
 Login here: 
 http://localhost:8082/admin/
+
+# Creating a new custom App
+python manage.py startapp products
