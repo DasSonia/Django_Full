@@ -12,3 +12,9 @@ http://localhost:8082/admin/
 
 # Creating a new custom App
 python manage.py startapp products
+
+# Make migrations
+python manage.py makemigrations
+python manage.py migrate
+
+
