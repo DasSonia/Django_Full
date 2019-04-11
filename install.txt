@@ -44,4 +44,6 @@ python manage.py startapp pages
 
 # URL and Routing
 
+# DJANGO TEMPLATNG
+
 
