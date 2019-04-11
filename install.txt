@@ -42,4 +42,6 @@ Default values should be handled and migrations should be done properly
 # Default Home to Custom Page
 python manage.py startapp pages
 
+# URL and Routing
+
 
