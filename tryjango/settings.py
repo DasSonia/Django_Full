@@ -15,7 +15,7 @@ import os # Os dependancy Mac,Windows,Linux
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 # To get the root directory where manage.py is present
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-print(BASE_DIR)
+#print(BASE_DIR)
 
 
 # Quick-start development settings - unsuitable for production
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Third party
     # Own
+    'products'
 ]
 
 MIDDLEWARE = [
