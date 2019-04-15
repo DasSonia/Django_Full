@@ -70,6 +70,8 @@ create some products
 
 # Raw HTML Form
 
+# Pure Django Form
+
 
 
 
