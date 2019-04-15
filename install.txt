@@ -56,6 +56,8 @@ python manage.py startapp pages
 
 # Using Conditions in a Template
 
+# Template Tags and Filters
+
 
 
 
