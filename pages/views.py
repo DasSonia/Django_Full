@@ -20,6 +20,7 @@ def about_view(request, *args, **kwargs):
     my_context = {
         "my_text": "This is about us text",
         "my_number": 123,
+        "this_is_true": True,
         "my_list": [1313, 4231, 312, "Abc list"]
 
     }

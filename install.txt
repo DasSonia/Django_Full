@@ -54,6 +54,8 @@ python manage.py startapp pages
 
 # For Loop in a Template
 
+# Using Conditions in a Template
+
 
 
 
