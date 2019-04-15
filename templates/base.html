@@ -5,6 +5,7 @@
 </head>
 <body>
     <h1>This is base template which loads every time</h1>
+    {% include 'navbar.html' %}
 {{ request.user }}
 {{ request.user.is_authenticated }}
 

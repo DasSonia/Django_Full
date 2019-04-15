@@ -48,4 +48,6 @@ python manage.py startapp pages
 
 # Django templating engine Basics
 
+# Include Template Tag
+
 
