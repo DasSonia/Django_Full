@@ -52,6 +52,8 @@ python manage.py startapp pages
 
 # Rendering Context in a Template
 
+# For Loop in a Template
+
 
 
 
