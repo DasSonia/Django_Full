@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <title>Coding for Entrepreneurs is doing Try Django</title>
+</head>
+<body>
+    <h1>This is base template which loads every time</h1>
+{{ request.user }}
+{{ request.user.is_authenticated }}
+
+    <p>-----------------------------------------------</p>
+    <p>* content is the variable name</p>
+    {% block content %}
+        replace me
+    {% endblock content %} 
+    <p>-----------------------------------------------</p>
+
+    </body>
+</html> 

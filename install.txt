@@ -46,4 +46,6 @@ python manage.py startapp pages
 
 # DJANGO TEMPLATNG
 
+# Django templating engine Basics
+
 
